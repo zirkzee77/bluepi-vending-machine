@@ -109,6 +109,7 @@ API Endpoints
 - POST   /api/transactions
 
 Project Structure
+```
 ├── be/
 │   ├── src/
 │   │   ├── controllers/
@@ -121,6 +122,7 @@ Project Structure
         ├── components/
         ├── hooks/
         └── utils/
+```
 
 Time Constraints & Trade-offs
 Due to time limitations, several features were deprioritized:
