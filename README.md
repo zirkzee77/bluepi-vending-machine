@@ -55,16 +55,15 @@ Design Decisions & Assumptions
     - Timestamps for auditing
 
 - Business Rules
--- Cash Handling
---- Accepts Thai Baht denominations
---- Validates sufficient funds
---- Calculates optimal change
---- Maintains cash inventory
-
--- Stock Management
---- Real-time stock updates
---- Stock validation before purchase
---- Admin stock adjustment
+    - Cash Handling
+    - Accepts Thai Baht denominations
+    - Validates sufficient funds
+    - Calculates optimal change
+    - Maintains cash inventory
+- Stock Management
+    - Real-time stock updates
+    - Stock validation before purchase
+    - Admin stock adjustment
 
 Current Limitations & Future Improvements
 
