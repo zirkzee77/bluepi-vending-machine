@@ -6,7 +6,6 @@ services:
     ports:
       - "5173:5173"
     volumes:
-      - ./fe:/app
       - /app/node_modules
     environment:
       - VITE_API_URL=http://localhost:5001/api
@@ -21,7 +20,6 @@ services:
     ports:
       - "5001:5001"
     volumes:
-      - ./be:/app
       - /app/node_modules
       - /app/.pnpm-store
     environment:

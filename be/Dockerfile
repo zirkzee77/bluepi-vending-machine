@@ -18,6 +18,6 @@ RUN pnpm db:generate
 
 RUN pnpm build
 
-EXPOSE 5000
+EXPOSE 5001
 
-CMD ["sh", "-c", "pnpm db:migrate && pnpm db:seed && node dist/main.js"]
+CMD ["sh", "-c", "pnpm db:migrate && pnpm db:seed && pnpm start"]
