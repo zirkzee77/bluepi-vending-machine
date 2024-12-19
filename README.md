@@ -5,36 +5,34 @@ A digital vending machine application built with React and Node.js. The system h
 
 Technology Stack
 - Frontend
-
--- React with TypeScript
--- Ant Design (UI Components)
--- TanStack Query (Data Fetching & Cache)
--- CSS Modules (Styling)
+    - React with TypeScript
+    - Ant Design (UI Components)
+    - TanStack Query (Data Fetching & Cache)
+    - CSS Modules (Styling)
 
 - Backend
-
--- Node.js with TypeScript
--- Express.js (Server Framework)
--- Prisma (ORM)
--- PostgreSQL (Database)
--- Jest (Testing)
+    - Node.js with TypeScript
+    - Express.js (Server Framework)
+    - Prisma (ORM)
+    - PostgreSQL (Database)
+    - Jest (Testing)
 
 Features
 
 - Product display and selection
 - Cash insertion and change calculation
 - Admin panel for:
--- Stock management
--- Cash inventory management
+    - Stock management
+    - Cash inventory management
 - Real-time inventory updates
 - Transaction handling
 
 Setup and Installation
 - Prerequisites
--- Node.js (v18+)
--- pnpm
--- PostgreSQL
--- Docker
+    - Node.js (v18+)
+    - pnpm
+    - PostgreSQL
+    - Docker
 
 Running with Docker
 - docker compose up --build
@@ -44,17 +42,17 @@ Testing
 
 Design Decisions & Assumptions
 - Architecture
--- RESTful API design
--- Repository pattern for data access
--- Service layer for business logic
--- Input validation using express-validator
--- Type safety with TypeScript
+    - RESTful API design
+    - Repository pattern for data access
+    - Service layer for business logic
+    - Input validation using express-validator
+    - ype safety with TypeScript
 
 - Data Models
--- Products with stock tracking
--- Cash inventory for coins and notes
--- Transaction history
--- Timestamps for auditing
+    - Products with stock tracking
+    - Cash inventory for coins and notes
+    - Transaction history
+    - Timestamps for auditing
 
 - Business Rules
 -- Cash Handling
@@ -71,33 +69,31 @@ Design Decisions & Assumptions
 Current Limitations & Future Improvements
 
 - Limitations
--- No new product creation (hardcoded product list)
--- Limited cash denomination management
--- Basic admin functionalities
--- No user authentication
--- Limited transaction history
--- Frontend testing not implemented
+    - No new product creation (hardcoded product list)
+    - Limited cash denomination management
+    - Basic admin functionalities
+    - No user authentication
+    - Limited transaction history
+    - Frontend testing not implemented
 
 - Potential Improvements
--- Functionality
---- Product management (CRUD operations)
---- Cash denomination management
---- Transaction history and analytics
---- User authentication and roles
---- Bulk operations for stock/cash updates
-
--- UI/UX
---- Product filtering and sorting
---- Search functionality
---- Transaction dashboard
---- Stock alerts
-
--- Technical
---- Frontend testing implementation
---- Increase backend test coverage
---- API documentation
---- Error tracking
---- Logging system
+    - Functionality
+      - Product management (CRUD operations)
+      - Cash denomination management
+      - Transaction history and analytics
+      - User authentication and roles
+      - Bulk operations for stock/cash updates
+    - UI/UX
+      - Product filtering and sorting
+      - Search functionality
+      - Transaction dashboard
+      - Stock alerts
+    - Technical
+      - Frontend testing implementation
+      - Increase backend test coverage
+      - API documentation
+      - Error tracking
+      - Logging system
 
 Testing Coverage
 
